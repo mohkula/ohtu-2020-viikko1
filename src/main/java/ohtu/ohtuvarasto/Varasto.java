@@ -1,5 +1,6 @@
 package ohtu.ohtuvarasto;
 
+
 public class Varasto {
 
     // --- piilotettu tietorakenteen toteutus: ---
