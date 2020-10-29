@@ -152,7 +152,7 @@ public class VarastoTest {
     @Test
     public void alkusaldoToimiiKunSaldoOnNegatiivinen() {
         varasto = new Varasto(10, -5);
-        assertEquals(0.0, varasto.getSaldo(), vertailuTarkkuus);
+        assertEquals(10.0, varasto.getSaldo(), vertailuTarkkuus);
 
     }
 
